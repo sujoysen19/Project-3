@@ -1,0 +1,63 @@
+.menuu{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.hhh:hover{
+    background-color: red;
+}
+
+.slideall{
+    height: 500px;
+}
+
+.para{
+    color: white;
+}
+
+.fa-android{
+    font-size: 250px;
+    color: green;
+}
+
+.fa-database{
+    font-size: 240px;
+    color: blue;
+}
+
+.fa-desktop{
+    font-size: 250px;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hr11{
+    height: 5px;
+    width: auto;
+    background-color: black;
+}
+
+.courses{
+    font-weight: bold;
+}
+
+.mar1{
+    padding: 0;
+}
+
+.p11{
+    line-height: 0;
+}
+
+.clickss{
+    color: white;
+}
+.clickss:hover{
+    color: white;
+    text-decoration:none;
+}
+
+.office{
+    margin-top: 40px;
+}

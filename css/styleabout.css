@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+
+.block {
+    position: relative;
+    margin: 10% auto 0;
+    width: 50%;
+    height: 400px;
+    background: linear-gradient(0deg, #000, #272727);
+}
+
+.moving-glow:before, .moving-glow:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094,
+    #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    z-index: -1;
+    animation: anim-moving-glow 20s linear infinite;
+
+
+}
+
+@keyframes anim-moving-glow {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.moving-glow:after {
+    filter: blur(30px);
+}
+
+.content{
+    text-align: center;
+    color: white;
+}
+
+.content1{
+    padding-top: 1px;
+}
+
+.content2{
+    padding-top: 25px;
+}
+
+.content3{
+    line-height: 0px;
+}
+
+.menuu{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.hhh:hover{
+    background-color: red;
+}
